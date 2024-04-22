@@ -1,0 +1,89 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.portfolio_websites a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    position: relative; /* Add position relative for pseudo-element */
+}
+
+.portfolio_websites a img {
+    width: 100px; /* Adjust the width of the icons as needed */
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Add space between the icon and text */
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.portfolio_websites a p {
+    font-size: 18px; /* Adjust the font size of the text */
+    font-weight: bold;
+    color: #cfe599; /* Set the color of the text */
+}
+
+/* Add animation for hover effect */
+.portfolio_websites a:hover img {
+    transform: scale(1.1); /* Scale up the icon on hover */
+}
+
+
+.social-links a:hover img {
+    transform: scale(1.1); /* Scale up the icon on hover */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
