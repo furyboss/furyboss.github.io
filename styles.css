@@ -49,7 +49,7 @@ section {
     padding: 40px 0;
 }
 
-.portfolio_websites a {
+.projects_websites a {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -57,7 +57,7 @@ section {
     position: relative; /* Add position relative for pseudo-element */
 }
 
-.portfolio_websites a img {
+.projects_websites a img {
     width: 100px; /* Adjust the width of the icons as needed */
     height: auto;
     display: block;
@@ -65,14 +65,14 @@ section {
     transition: transform 0.3s ease; /* Add transition for smooth animation */
 }
 
-.portfolio_websites a p {
+.projects_websites a p {
     font-size: 18px; /* Adjust the font size of the text */
     font-weight: bold;
     color: #cfe599; /* Set the color of the text */
 }
 
 /* Add animation for hover effect */
-.portfolio_websites a:hover img {
+.projects_websites a:hover img {
     transform: scale(1.1); /* Scale up the icon on hover */
 }
 
